@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 import { getDB } from './db/mongodb';
 import { ObjectId } from 'mongodb';
 
-dotenv.config()
+dotenv.config();
 
 
 const SUPER_SECRETO = process.env.SECRET;
